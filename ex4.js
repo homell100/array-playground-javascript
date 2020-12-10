@@ -17,4 +17,4 @@
   let pezPosicion2 = muchos_peces.indexOf("estrella")
   console.log("Estrella está en la posición: " + pezPosicion2)
 
-  
+//   Solución: indexOf devuelve -1 como resultado cuando no encuentra el termino. En muchos_peces no existe ninguno que se llame estrella.

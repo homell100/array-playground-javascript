@@ -19,3 +19,5 @@ console.log(muchos_peces.includes("Pepitillo"))
 /**
  * ¿Por qué el primer console log arroja el valor "true" y el segundo arroja el valor "false"?
  */
+
+//  Solución: Porque Nemo pertenece a muchos_peces mientras que Pepitillo no
