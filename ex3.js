@@ -18,8 +18,9 @@
 
 let muchos_peces = ["Dory", "Nemo", "Shipho", "Estrella"]
 
-for(let i=0; i<muchos_peces.length; i++) {
+for(let i=0; i<=muchos_peces.length; i++) {
     let siguiente_pez = muchos_peces[i]
     console.log("Pez siguiente: " + siguiente_pez)
 }
 
+//Solución: Porque como esta definido el bucle for la variable i llega a valer muchos_peces.length. Como los arrays empiezan por la posición 0 y acaban en n-1, el elemento muchos_peces[muchos_peces.length] no existe.
